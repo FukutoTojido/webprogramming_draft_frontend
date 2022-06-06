@@ -1,0 +1,63 @@
+/* external css: flickity.css */
+
+#content * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main-gallery {
+    margin: auto auto;
+}
+
+.gallery-cell {
+    width: 66%;
+    height: 70vh;
+    padding: 50px;
+    margin-right: 10px;
+    background: #8c8;
+    /* counter-increment: gallery-cell; */
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
+    background: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / 0) 100%), url('https://cdnb.artstation.com/p/assets/images/images/019/036/961/large/minh-hai-do-1551940067489.jpg?1561728310') no-repeat center center/cover;
+    color: white;
+
+    border-radius: 10px;
+}
+
+.gallery-cell:nth-of-type(2) {
+    background: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / 0) 100%), url("https://cdnb.artstation.com/p/assets/images/images/019/036/961/large/minh-hai-do-1551940067489.jpg?1561728310") no-repeat center center/cover;
+}
+
+.gallery-cell:nth-of-type(5) {
+    background: linear-gradient(0deg, rgba(0 0 0 / 1) 0%, rgba(0 0 0 / 0) 100%), url('https://cdnb.artstation.com/p/assets/images/images/019/036/961/large/minh-hai-do-1551940067489.jpg?1561728310') no-repeat center center/cover;
+}
+
+.card-title {
+    color: black;
+    background-color: white;
+    
+    padding: 10px;
+    margin: 10px 0;
+
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.card-subText {
+    width: 100%;
+    font-weight: 100;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
