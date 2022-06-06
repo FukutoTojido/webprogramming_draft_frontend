@@ -29,9 +29,7 @@
         <div class="btn" onclick="load('about')">Thông tin</div>
         <div class="btn" onclick="load('products')">Dịch vụ</div>
         <div class="btn" onclick="load('pricing')">Bảng giá</div>
-        <a href="/contact.php">
-            <div class="btn">Liên hệ</div>
-        </a>
+        <div class="btn" onclick="load('contact')">Liên hệ</div>
         <a href="/news.php">
             <div class="btn">Tin tức</div>
         </a>

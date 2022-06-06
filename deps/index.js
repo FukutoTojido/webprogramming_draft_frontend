@@ -5,6 +5,7 @@ pageTitle = {
     about: "Thông tin",
     products: "Dịch vụ",
     pricing: "Bảng giá",
+    contact: "Liên hệ"
 };
 
 initLoad = (path) => {

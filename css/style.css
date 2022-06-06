@@ -61,7 +61,7 @@ body {
 
 #app {
     width: calc(100vw - 100px);
-    min-height: calc(100vh - 90px);
+    min-height: calc(100vh - 200px);
     padding: 50px;
 }
 
