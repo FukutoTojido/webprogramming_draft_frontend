@@ -5,11 +5,13 @@ pageTitle = {
     about: "Thông tin",
     products: "Dịch vụ",
     pricing: "Bảng giá",
-    contact: "Liên hệ"
+    contact: "Liên hệ",
+    news: "Tin tức"
 };
 
 initLoad = (path) => {
     $("#app").animate({ opacity: 0 }, 0);
+    $(".page-title").animate({ opacity: 0 }, 0);
     $("#app").load(`${path}.html`);
 
     setTimeout(() => {
@@ -21,6 +23,7 @@ initLoad = (path) => {
                 wrapAround: true,
             });
         $(".page-title").text(pageTitle[`${path}`]);
+        $(".page-title").animate({ opacity: 1 });
         $("#app").animate({ opacity: 1 });
     }, 100);
 };
@@ -47,6 +50,7 @@ load = (path) => {
     );
     // loadingDiv.style.display = "block";
     $("#app").animate({ opacity: 0 }, 400);
+    $(".page-title").animate({ color: "transparent" }, 400);
     setTimeout(() => {
         $("#app").load(`${path}.html`);
         changeCSS(path, 4);
@@ -60,6 +64,7 @@ load = (path) => {
                     wrapAround: true,
                 });
             $(".page-title").text(pageTitle[`${path}`]);
+            $(".page-title").animate({ color: "#ffffff" }, 100);
             $("#app").animate({ opacity: 1 });
         }, 100);
         // loadingDiv.style.display = "none";
