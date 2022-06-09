@@ -37,7 +37,10 @@
     width: 200px;
     aspect-ratio: 1 / 1;
 
-    background: black;
+    /* background: black; */
+    background: url("../static/bg.jpg");
+    background-size: cover;
+    
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -83,11 +86,11 @@
     width: 100%;
     /* height: calc(100% - 2em - 40px); */
 
-    font-size: 1em;
+    font-size: .8em;
     font-weight: 100;
 
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }

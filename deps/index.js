@@ -6,13 +6,15 @@ pageTitle = {
     products: "Dịch vụ",
     pricing: "Bảng giá",
     contact: "Liên hệ",
-    news: "Tin tức"
+    news: "Tin tức",
+    login: "Đăng nhập",
+    register: "Đăng ký"
 };
 
 initLoad = (path) => {
     $("#app").animate({ opacity: 0 }, 0);
     $(".page-title").animate({ opacity: 0 }, 0);
-    $("#app").load(`${path}.html`);
+    $("#app").load(`content/${path}.php`);
 
     setTimeout(() => {
         if (path === "products")
@@ -52,7 +54,7 @@ load = (path) => {
     $("#app").animate({ opacity: 0 }, 400);
     $(".page-title").animate({ color: "transparent" }, 400);
     setTimeout(() => {
-        $("#app").load(`${path}.html`);
+        $("#app").load(`content/${path}.php`);
         changeCSS(path, 4);
 
         setTimeout(() => {

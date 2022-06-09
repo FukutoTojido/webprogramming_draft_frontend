@@ -32,7 +32,7 @@
         <div class="btn" onclick="load('pricing')">Bảng giá</div>
         <div class="btn" onclick="load('contact')">Liên hệ</div>
         <div class="btn" onclick="load('news')">Tin tức</div>
-        <div class="btn login">Đăng nhập</div>
+        <div class="btn login" onclick="load('login')">Đăng nhập</div>
     </div>
     <!-- <div id="loadingDiv">
         <img src='https://1.bp.blogspot.com/-Ius_gXvaNww/WVr6MkbqUtI/AAAAAAAAcTg/m__dYzOjOQIDiMEgZeDvvXHG6wt6WiLBgCLcBGAs/s1600/AS002799_00.gif' />
