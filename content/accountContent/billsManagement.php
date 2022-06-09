@@ -1,6 +1,6 @@
 <div class="headingSection">
-    <div class="settingsHeading">Dịch vụ đã sử dụng</div>
-    <div class="settingsDesc">Xem lại lịch sử sử dụng dịch vụ</div>
+    <div class="settingsHeading">Quản lý đơn đặt dịch vụ</div>
+    <div class="settingsDesc">Xem và xóa đơn đặt dịch vụ</div>
 </div>
 <div class="innerSection">
     <div class="billRow">

@@ -63,6 +63,8 @@ body {
     width: calc(100vw - 100px);
     /* min-height: calc(100vh - 300px); */
     padding: 50px;
+
+    background: rgb(214, 226, 245);
 }
 
 /* #loadingDiv {
