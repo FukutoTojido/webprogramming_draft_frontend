@@ -106,9 +106,3 @@ input {
 .quickNav:visited {
     color: black;
 }
-
-.inputContainer > .quickNav {
-    width: 100%;
-    text-align: center;
-    font-size: 0.8em;
-}

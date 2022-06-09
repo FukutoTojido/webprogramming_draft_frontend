@@ -5,7 +5,6 @@
         <div class="inputContainer">
             <input type="text" id="name" name="name" placeholder="Tên đăng nhập">
             <input type="password" id="pwd" name="pwd" placeholder="Mật khẩu">
-            <div class="quickNav">Quên mật khẩu?</a>
         </div>
         <button id="loginButton">Đăng nhập</button>
     </div>

@@ -8,13 +8,15 @@ pageTitle = {
     contact: "Liên hệ",
     news: "Tin tức",
     login: "Đăng nhập",
-    register: "Đăng ký"
+    register: "Đăng ký",
+    account: "Tài khoản",
 };
 
 initLoad = (path) => {
     $("#app").animate({ opacity: 0 }, 0);
     $(".page-title").animate({ opacity: 0 }, 0);
     $("#app").load(`content/${path}.php`);
+    document.title = `${pageTitle[path]} - play im@s`;
 
     setTimeout(() => {
         if (path === "products")
@@ -39,7 +41,7 @@ changeCSS = (path, cssLinkIndex) => {
     newlink.setAttribute("href", `css/${path}.css`);
 
     document
-        .getElementsByTagName("head")
+        .getElementsByTagName(`head`)
         .item(0)
         .replaceChild(newlink, oldlink);
 };
@@ -56,6 +58,7 @@ load = (path) => {
     setTimeout(() => {
         $("#app").load(`content/${path}.php`);
         changeCSS(path, 4);
+        document.title = `${pageTitle[path]} - play im@s`;
 
         setTimeout(() => {
             if (path === "products")
@@ -78,4 +81,9 @@ $(function () {
         var $nav = $("#headerTab");
         $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
     });
+});
+
+window.addEventListener('popstate', function (event) {
+	// The URL changed...
+    console.log('a')
 });

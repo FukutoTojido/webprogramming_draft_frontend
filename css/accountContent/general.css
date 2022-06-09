@@ -1,0 +1,76 @@
+.optionRow {
+    width: calc(100% - 40px);
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+
+    margin: 20px;
+    font-weight: 100;
+}
+
+.optionContent {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-content: center;
+
+    line-height: 50px;
+}
+
+.label {
+    width: 150px;
+
+    line-height: 50px;
+    text-align: right;
+
+    margin-inline: 20px;
+    color: rgb(94, 94, 94);
+    font-size: .8em;
+}
+
+input {
+    width: calc(100% - 20px);
+    border: none;
+    
+    font-size: 1em;
+
+    box-shadow: 0 1px 0 0 black;
+    padding: 10px;
+
+    font-family: BeVietnamPro;
+}
+
+input:focus {
+    outline: none;
+}
+
+.confirmButton {
+    padding-inline: 50px;
+    height: 50px;
+
+    background: rgb(248, 126, 122);
+    color: white;
+
+    border: none;
+
+    font-family: BeVietnamPro;
+    font-size: 1em;
+    font-weight: 700;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 10px -5px rgb(248, 126, 122);
+
+    transition: ease-in-out 300ms;
+    user-select: none;
+}
+
+.confirmButton:hover {
+    background: white;
+    color: rgb(248, 126, 122);
+
+    box-shadow: 0 15px 10px -5px white;
+    transform: translateY(-5px);
+}

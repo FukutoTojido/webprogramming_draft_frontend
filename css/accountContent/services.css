@@ -1,0 +1,98 @@
+.innerSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.servicesBox {
+    width: 45%;
+    height: 300px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+
+    /* gap: 20px; */
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0 / .5);
+    line-height: 50px;
+
+    background:rgb(225, 234, 255);
+}
+
+.addBox {
+    width: 45%;
+    height: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0 / .5);
+
+    line-height: 300px;
+    text-align: center;
+    font-size: 10em;
+    color:rgba(0 0 0 / .5);
+    user-select: none;
+
+    transition: ease-in-out 100ms;
+
+    background:rgb(225, 234, 255);
+}
+
+.addBox:hover {
+    color:rgba(135, 156, 187, 0.863);
+}
+
+input {
+    width: 100%;
+    border: none;
+
+    /* padding: 10px 0; */
+
+    font-weight: 900;
+    font-family: BeVietnamPro;
+    font-size: 1em;
+
+    box-shadow: 0 1px 0 0 black;
+
+    background:rgb(225, 234, 255);
+}
+
+.label {
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+*:focus {
+    outline: none;
+}
+
+.remover {
+    position: relative;
+    bottom: 106%;
+    left: 100%;
+
+    width: 30px;
+    height: 30px;
+
+    background-color: white;
+    color: #de3950;
+    line-height: 30px;
+    text-align: center;
+
+    border-radius: 100%;
+
+    transition: ease-in-out 100ms;
+
+    user-select: none;
+}
+
+.remover:hover {
+    background-color: #de3950;
+    color: white;
+}

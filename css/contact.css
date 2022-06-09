@@ -11,19 +11,15 @@
 #wrapper {
     width: 50vw;
     height: 600px;
-
     padding: 30px;
-
     border-radius: 10px;
     box-shadow: 0 10px 10px -5px rgba(0 0 0 / .5);
-
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-
-    background:rgb(255, 252, 246);
+    background: rgb(255 252 246);
 }
 
 .header {

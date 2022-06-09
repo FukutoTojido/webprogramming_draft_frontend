@@ -1,0 +1,85 @@
+.billRow {
+    width: calc(100% - 40px);
+    height: 200px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0 / .5);
+    line-height: 50px;
+}
+
+.firstRow {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.billName {
+    margin-right: auto;
+}
+
+.billId {
+    width: 200px;
+    text-align: center;
+}
+
+.billDate {
+    width: 100px;
+    text-align: right;
+}
+
+.secondRow {
+    width: calc(100% - 40px);
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    background:rgb(225, 234, 255);
+    border-radius: 10px;
+}
+
+.billCustomer {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1em;
+}
+
+.customerEmail, .customerTel {
+    font-size: 0.8em;
+    height: 20px;
+    line-height: 20px;
+
+    /* margin-right: 50px; */
+    color: rgb(100, 100, 100);
+}
+
+.removeButton {
+    height: 10px;
+    line-height: 10px;
+
+    margin: 10px 0 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #de3950;
+
+    color: white;
+
+    box-shadow: 0 5px 10px -5px #de3950;
+    user-select: none;
+
+    transition: ease-in-out 100ms;
+}
+
+.removeButton:hover {
+    background: white;
+    color: #de3950;
+}

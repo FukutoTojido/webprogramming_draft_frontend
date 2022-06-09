@@ -1,0 +1,26 @@
+.billRow {
+    width: calc(100% - 40px);
+    height: 50px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0 / .5);
+    line-height: 50px;
+}
+
+.billName {
+    margin-right: auto;
+}
+
+.billId {
+    width: 200px;
+    text-align: center;
+}
+
+.billDate {
+    width: 100px;
+    text-align: right;
+}
