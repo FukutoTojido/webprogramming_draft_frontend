@@ -14,6 +14,10 @@
         $path = $queryArr[1];
     }
     ?>
+    <link rel="stylesheet" href="minified/themes/default.min.css" />
+    <script src="minified/sceditor.min.js"></script>
+    <script src="minified/formats/bbcode.js"></script>
+    <script src="minified/formats/xhtml.js"></script>
     <link rel="stylesheet" href="deps/flickity.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">

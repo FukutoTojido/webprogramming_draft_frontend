@@ -39,7 +39,3 @@ addServicesBox = () => {
 
     document.getElementsByClassName("innerSection")[0].insertBefore(box, document.getElementsByClassName("addBox")[0]);
 }
-
-removeBox = (e) => {
-    e.parentNode.remove();
-}

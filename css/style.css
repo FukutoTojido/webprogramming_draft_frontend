@@ -63,7 +63,9 @@ body {
     width: calc(100vw - 100px);
     /* min-height: calc(100vh - 300px); */
     padding: 50px;
+}
 
+#app-container {
     background: rgb(214, 226, 245);
 }
 

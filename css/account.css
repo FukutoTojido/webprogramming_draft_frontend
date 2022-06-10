@@ -81,6 +81,6 @@
     height: calc(100% - 80px);
 
     margin-top: 20px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
 }
 

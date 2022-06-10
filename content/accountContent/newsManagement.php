@@ -6,10 +6,12 @@
     <div class="newsContainer">
         <div class="newsPreview"></div>
         <div class="newsTitle">TRUNG TÂM CHUYỂN CƠ SỞ HOẠT ĐỘNG VỀ ĐỊA ĐIỂM MỚI TRUNG TÂM CHUYỂN CƠ SỞ HOẠT ĐỘNG VỀ ĐỊA ĐIỂM MỚI</div>
+        <div class="remover" onclick="removeBox(this)">-</div>
     </div>
     <div class="newsContainer">
         <div class="newsPreview"></div>
         <div class="newsTitle">TRUNG TÂM CHUYỂN CƠ SỞ HOẠT ĐỘNG VỀ ĐỊA ĐIỂM MỚI TRUNG TÂM CHUYỂN CƠ SỞ HOẠT ĐỘNG VỀ ĐỊA ĐIỂM MỚI</div>
+        <div class="remover" onclick="removeBox(this)">-</div>
     </div>
-    <div class="addNews">+</div>
+    <div class="addNews" onclick="load('post')">+</div>
 </div>

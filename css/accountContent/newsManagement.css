@@ -55,3 +55,28 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.remover {
+    position: relative;
+    bottom: calc(112% - 10px);
+    left: calc(100% - 30px - 10px);
+
+    width: 30px;
+    height: 30px;
+
+    background-color: white;
+    color: #de3950;
+    line-height: 30px;
+    text-align: center;
+
+    border-radius: 100%;
+
+    transition: ease-in-out 100ms;
+
+    user-select: none;
+}
+
+.remover:hover {
+    background-color: #de3950;
+    color: white;
+}

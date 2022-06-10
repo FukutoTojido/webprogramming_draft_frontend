@@ -22,7 +22,7 @@ settingsLoad = (option) => {
 
     setTimeout(() => {
         $(".settingsContent").load(`content/accountContent/${option}.php`);
-        addCSS(option, 5);
+        addCSS(option, 6);
 
         setTimeout(() => {
             $(".settingsContent").animate({ opacity: 1 }, 400);
@@ -31,3 +31,7 @@ settingsLoad = (option) => {
 };
 
 settingsLoad(settingsParam);
+
+removeBox = (e) => {
+    e.parentNode.remove();
+}

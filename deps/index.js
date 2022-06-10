@@ -10,6 +10,7 @@ pageTitle = {
     login: "Đăng nhập",
     register: "Đăng ký",
     account: "Tài khoản",
+    post: "Tạo bài đăng"
 };
 
 initLoad = (path) => {
@@ -57,7 +58,7 @@ load = (path) => {
     $(".page-title").animate({ color: "transparent" }, 400);
     setTimeout(() => {
         $("#app").load(`content/${path}.php`);
-        changeCSS(path, 4);
+        changeCSS(path, 5);
         document.title = `${pageTitle[path]} - play im@s`;
 
         setTimeout(() => {
